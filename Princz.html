@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Princz</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.9/typed.min.js" async defer></script>
+</head>
+<style type="text/css" media="screen">
+body {
+    font-family: Garamond, serif;
+    background: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+.color {
+    background: #fff;
+}
+
+#jessi{
+	font-size: 50px;
+	font-weight: 300;
+	color: #FA0101;
+	}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+
+<body class="color">
+
+    <div class="d-flex justify-content-md-center align-items-center vh-100">
+        <div>
+        	<img src="Teddy.jpg" alt="" width="500" height="600">
+
+        </div>
+ 		<div class="centered" id="jessi"> </div>
+    </div>
+
+</body>
+
+</html>
+<script>
+window.onload = function() {
+        var typed = new Typed('#jessi', {
+            strings: [" ","Happy Teddy Day","Yai lo apna Teddy 🤣🤣","From Jija ji"],
+            backSpeed: 100,
+            smartBackspace: true,
+            backDelay: 900,
+            startDelay: 900,
+            typeSpeed: 100,
+            loop: true,
+        });
+};
+</script>
